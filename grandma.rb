@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 require "pry"
 def speak_to_grandma(love)
   #binding.pry
@@ -28,3 +29,22 @@ def speak_to_grandma(love)
 end
 
 #speak_to_grandma("I LOVE YOU GRANDMA!").upcase
+=======
+
+def speak_to_grandma(love)
+  if love == "Hello grandma!"
+    puts "HUH?! SPEAK UP, SONNY!"
+  elsif love == "How are you grammy?"
+    puts "HUH?! SPEAK UP, SONNY!"
+  elsif love == "ARE YOU HUNGRY, GRANDMA?"
+    puts "NO, NOT SINCE 1938!"
+  elsif love == "ARE YOU THIRSTY, GRANDMA?"
+    puts "NO, NOT SINCE 1938!"
+  else 
+    puts "I LOVE YOU TOO PUMPKIN!"
+  end
+end
+
+speak_to_grandma("I LOVE YOU GRANDMA!")
+
+>>>>>>> 38ddaff418a785f39a8c391fdbcabc407707aff3
